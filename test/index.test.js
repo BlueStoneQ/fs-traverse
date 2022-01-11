@@ -1,5 +1,5 @@
-import main from '../src/index.ts';
+const main = require('../dist/index').default;
 
-test('test', () => {
-  
+test('test', async () => {
+  await main('');
 });
